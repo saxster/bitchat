@@ -13,11 +13,6 @@ on:
     paths:
       - "localPackages/Arti/**"
       - "docs/ARTI-BINARY-PROVENANCE.md"
-  pull_request:
-    paths:
-      - "localPackages/Arti/**"
-      - "docs/ARTI-BINARY-PROVENANCE.md"
-
 jobs:
   verify-hashes:
     name: Verify xcframework hashes against provenance doc
