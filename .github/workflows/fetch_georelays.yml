@@ -1,8 +1,8 @@
 name: Propose GeoRelay Data Update
 
 on:
-  schedule:
-    - cron: "0 6 * * 0"
+  push:
+    branches: [main]
   workflow_dispatch:
 
 # Default to read-only. The publishing job receives only the scopes required
